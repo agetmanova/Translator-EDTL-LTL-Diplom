@@ -1,0 +1,25 @@
+№,Правило,частота
+44,G(G(a) ∨ (a U b)) = G(a ∧ F(b)),28
+0,a ∨ a = a,22
+8,a ∨ (b ∧ a) = a,22
+3,a ∨ (b U a) = (b U a),20
+33,G(G(a)) = G(a),15
+43,a ∨ (b U (a ∨ c)) = (b U (a ∨ c)),12
+1,a ∨ (b ∧ (a ∨ c)) = a ∨ (b ∧ c),6
+5,G(¬a) ∨ F(a) = true,6
+9,a ∨ (a ∨ b) = a V b,6
+34,a U a = a,6
+35,¬a U a = F(a),6
+41,G(¬a) ∨ (F(a) ∨ (с)) = (с),6
+42,¬a U (b ∨ a) = F(a) ∨ (¬a U b),6
+46,(a ∧ b) U (c ∨ a) = a ∨ ((a ∧ b) U c),6
+47,(a ∧ b) U a = a,6
+48,a U (b ∨ a) = a ∨ (a U b),6
+50,(a ∧ ¬b) U (b ∧ a) = a U (b ∧ a),6
+2,a ∨ F(a ∨ b) = F(a ∨ b),4
+32,G(F(a)) = GF(a),3
+51,G(G(a ∧ ¬b) ∨ (a U (b ∧ a))) = G(a),3
+6,a ∨ F(a) = F(a),2
+45,G((a ∧ b) U (a ∧ c)) = G(a ∧ (b U c)),1
+52,G(G(a ∧ ¬b) ∨ ((a ∧ ¬b) U (b ∧ (a U (a ∧ c))))) = G(a ∧ (G(¬b) ∨ F(b ∧ F(c)))),1
+53,G(G(a ∧ ¬b) ∨ ((a ∧ ¬b) U (b ∧ (a ∧ c)))) = G(a ∧ (G(¬b) ∨ F(b ∧ c))),1
