@@ -1,0 +1,18 @@
+класс,общий вид формулы класса,частота встречаемости
+#1A,G(trig → rea),13
+#2,G(inv),4
+#8,G(trig → inv),3
+#27A,G(trig → (G(¬fin) ∨ (¬fin U (rel ∨ (fin ∧ rea))))),2
+#27A,G(trig → (G(¬fin) ∨ (¬fin U (rel ∨ (fin ∧ rea))))),2
+#16A,G(trig → (G(inv ∧ ¬fin) ∨ ((inv ∧ ¬fin) U (rel ∨ (fin ∧ (inv ∧ rea)))))),2
+#22A,G(trig → (G(inv ∧ ¬fin) ∨ ((inv ∧ ¬fin) U (fin ∧ (inv ∧ rea))))),2
+#4,G(¬trig),1
+#13A,G(trig → (inv ∧ rea)),1
+#36A,G(trig → (¬del U rea)),1
+#37A,G(trig → (¬del U (rel ∨ rea))),1
+#25A,G(trig → (G(inv ∧ ¬fin) ∨ ((inv ∧ ¬fin) U (fin ∧ ((inv ∧ ¬del) U (inv ∧ rea)))))),1
+#5A,G(trig → (rel ∨ rea)),1
+#34A,G(trig → (G(¬fin) ∨ (¬fin U (rel ∨ (fin ∧ rea))))),1
+true,true,1
+#29A,G(trig → (G(¬fin) ∨ (¬fin U (fin ∧ rea)))),1
+#6A,G(trig → (rel ∨ inv)),1
